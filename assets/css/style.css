@@ -1,0 +1,392 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.boundary{
+    width: 1200px;
+    margin: 0 auto;
+}
+a{
+  text-decoration: none;
+    transition: .4s;
+}
+ul{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+}
+.text-center{
+    text-align: center;
+}
+.pb-100{
+    padding-bottom: 100px;
+}
+.pt-100{
+    padding-top: 100px;
+}
+.fix:before, ,fix:after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.logo{
+    float: left;
+    width: 250px;
+}
+.logo h2{
+    color: #fff;
+    padding-top: 30px;
+    padding-left: 80px;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.menu{
+    float: right;
+    padding-right: 18px;
+}
+.menu ul li{
+   display: inline-block;
+}
+.menu ul li:hover{
+    background-color: tomato;
+    border-radius: 5px;
+    border: 2px solid #fff;
+}
+.menu ul li a{
+    display: block;
+    padding: 12px 18px;
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: capitalize; 
+}
+.header-area {
+    padding: 10px 0;
+}
+.header-fixed{
+    position: fixed;
+    z-index: 99;
+    left: 0;
+    right: 0;
+}
+.header-fixed a{
+    color:#fff;
+}
+.banner-area{
+    background-image: url(../img/banner4.jpg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+.banner{
+    border-radius: 2px;
+    background-color:transparent;
+    padding-top: 100px;
+}
+.find{
+    width: 40%;
+    margin: 0 300px;
+    padding-top: 20px;
+}
+.find h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-style: italic;
+    padding: 10px;
+}
+.find select{
+    width: 100%;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
+.start{
+    float: left;
+    width: 45%;
+   
+}
+.end{
+    width: 45%;
+    float: right;
+}
+.container form input{
+    width: 100%;
+    border: 1px solid transparent;
+    padding: 5px 10px;
+    border-radius: 8px;
+    margin-bottom: 18px;
+}
+.container form input[type="submit"]{
+    background-color: #e16038;
+    font-weight: 700;
+    color: #fff;
+    font-size: 16px;
+    display: inline-block;
+    padding: 12px;
+}
+.all-boundary{
+    background-color: #f3eeee;
+    overflow: hidden;
+    padding: 100px 0;
+}
+.page{
+    padding-bottom: 50px;
+}
+.single-page h1{
+    font-size: 20px;
+    font-weight: 600;
+}
+.single-page p{
+    padding: 7px;
+    color: gray;
+}
+.single-page{ 
+    width: 380px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.sale{
+    position: relative; 
+}
+.sale-content h1{
+    text-align: center;
+    font-weight: 500;
+}
+.sale-content p{
+    text-align: center;
+    padding: 5px;
+    color: gray;
+    
+}
+.sale-img{
+    position: absolute;
+    top: 50px;
+    left: 460px;
+}
+.beach-area{
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/banner9.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.beach{
+    float: left;
+    padding-left: 40px;
+    padding-top: 90px;
+}
+.beach-content h1{
+    color: #fff;
+    font-size: 55px;
+    font-weight: 500;
+}
+.beach-content p{
+    color: #fff;
+    font-size: 18px;
+    font-style: italic;
+}
+.beach-img{
+    float: left;
+     padding: 10px;
+}
+.beach-wrap{
+    float: left;
+    padding: 10px;
+}
+.beach-wrap h4, .beach-wrap h5{
+    color: #fff;
+}
+.beach-wrap a{
+    color: #fff;
+    background-color: #f15a23;
+    display: inline-block;
+    padding: 16px;
+    margin: 10px;
+    font-weight: 600;
+}
+.beach-wrap a:hover{
+    border: 2px solid #fff;
+    background-color: transparent;
+}
+.hotel-area{
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/banner10.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.hotel{
+    text-align: center;
+    padding: 80px;
+}
+.hotel-content h2{
+    color: #fff;
+    font-weight: 500;
+    font-size: 30px;
+}
+.hotel-content h1{
+    color: #fff;
+    font-size: 70px;
+    font-weight: 500;
+}
+.hotel-content p{
+    color: #fff;
+    font-weight: 800;
+}
+.hotel-wrap h4,.hotel-wrap h5{
+    color: #fff;
+}
+.hotel-wrap a{
+    color: #fff;
+    background-color: #f15a23;
+    padding: 16px;
+    margin: 10px;
+    display: inline-block;
+    font-weight: 600;
+}
+.hotel-wrap a:hover{
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+.mount-area{
+    background-image: url(../img/banner5.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+.mount{
+    float: right;
+    padding: 90px;
+}
+.mount-content h1{
+    color: #fff;
+    font-size: 60px;
+    font-style: oblique;
+    font-weight: 500;   
+}
+.mount-content p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 800;
+}
+.mount-wrap{
+    float: left;
+    padding: 10px;
+
+}
+.mount-wrap h4{
+    color: #fff;
+}
+.mount-content h5{
+    color: #fff;    
+}
+.mount-img{
+    float: left;
+    padding: 5px;
+}
+.mount-wrap a{
+    color: #fff;
+    background-color: #f15a23;
+    display: inline-block;
+    padding: 16px;
+    margin: 10px;
+    font-weight: 600;
+}
+.mount-wrap a:hover{
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+.single-product{
+    width: 380px;
+    float: left;
+    margin-left: 20px;
+    padding-bottom: 25px;
+}
+.single-product h1{
+    font-size: 30px;
+    padding-top: 10px;
+    font-weight: 700;
+    font-style: oblique;
+}
+.single-product h1:hover{
+    color: #f15a23;
+    font-style: normal;
+}
+.single-product h4{
+    padding: 8px;
+    color: gray;
+    font-weight: 500;
+}
+.single-product h4:hover{
+    color: #f15a23;
+}
+.single-product h3{
+    font-weight: 500;
+}
+.single-product span{
+    padding: 10px;
+    color: #f15a23;
+    font-size: 28px;
+}
+.all-weekend{
+    background-color: #f3eeee;
+    overflow: hidden;
+    padding: 80px;       
+}
+.weekend-content h1{
+    text-align: center;
+    font-weight: 500;
+    padding: 4px;
+    font-family:sans-serif;
+    font-style: italic;
+}
+.weekend-content p{
+    text-align: center;
+    color: gray;
+    font-weight: 600;
+}
+.week-img{
+    float: left;
+    width: 133px;
+    padding: 20px;
+}
+.week-img img{
+    border-radius: 100%;
+    border: 8px solid #ffffff;
+}
+.week-img h4{
+    text-align: center;
+    text-transform: capitalize;
+    color: aqua;
+    font-size: 18px;
+    font-weight: 800;
+}
+.week-img h4:hover{
+    color: #333;
+}
+.week-button{
+     text-align: center;
+}
+.week-button a{
+    color: #fff;
+    background-color: #f15a23;
+    display: inline-block;
+    padding: 16px;
+    margin: 10px;
+    font-weight: 600;
+}
+.week-button a:hover{
+    background-color: #333;
+    border: 2px solid #fff;
+}
+.post{
+    float: left;
+}
